@@ -1,0 +1,12 @@
+package string;
+import java.util.Scanner;
+public class length {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string: ");
+		String S1=new String(sc.nextLine());
+		System.out.println(S1.length());
+		sc.close();
+	}
+
+}
